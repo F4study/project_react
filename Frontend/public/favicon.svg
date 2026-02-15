@@ -1,0 +1,54 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" fill="white"/>
+  
+  <!-- Hexagon borders with different colors -->
+  <!-- Top left edge - Pink -->
+  <line x1="40" y1="50" x2="100" y2="20" stroke="#EC4899" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Top right edge - Cyan -->
+  <line x1="100" y1="20" x2="160" y2="50" stroke="#06B6D4" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Right edge - Blue -->
+  <line x1="160" y1="50" x2="160" y2="130" stroke="#3B82F6" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Bottom right edge - Purple -->
+  <line x1="160" y1="130" x2="100" y2="170" stroke="#A78BFA" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Bottom left edge - Pink/Magenta -->
+  <line x1="100" y1="170" x2="40" y2="130" stroke="#EC4899" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Left edge - Purple -->
+  <line x1="40" y1="130" x2="40" y2="50" stroke="#A78BFA" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Top Circle - Pink -->
+  <circle cx="100" cy="30" r="12" fill="none" stroke="#EC4899" stroke-width="6" />
+  <circle cx="100" cy="30" r="7" fill="#EC4899" />
+
+  <!-- Left Square - Purple -->
+  <rect x="30" y="85" width="20" height="20" rx="3" fill="none" stroke="#A78BFA" stroke-width="4" />
+  <rect x="35" y="90" width="10" height="10" fill="#A78BFA" />
+
+  <!-- Center Triangle - Cyan -->
+  <polygon points="100,55 125,95 75,95" fill="none" stroke="#06B6D4" stroke-width="4" />
+  <polygon points="100,65 120,90 80,90" fill="#06B6D4" />
+
+  <!-- Right Plus - Blue -->
+  <g stroke="#3B82F6" stroke-width="5" stroke-linecap="round">
+    <line x1="160" y1="80" x2="160" y2="110" />
+    <line x1="145" y1="95" x2="175" y2="95" />
+  </g>
+
+  <!-- Bottom Connection - Cyan to Purple gradient -->
+  <circle cx="80" cy="150" r="6" fill="#06B6D4" />
+  <circle cx="120" cy="150" r="6" fill="#A78BFA" />
+  <line x1="86" y1="150" x2="114" y2="150" stroke="url(#gradientLine)" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Gradient for connection line -->
+  <defs>
+    <linearGradient id="gradientLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

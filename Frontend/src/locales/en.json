@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "store": "Store",
+    "profile": "Profile",
+    "admin": "Admin"
+  },
+  "header": {
+    "viewProfile": "View Profile",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Sign Up",
+    "logout": "Logout",
+    "notLoggedIn": "Please log in to view this page"
+  },
+  "login": {
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password"
+  },
+  "register": {
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "avatar": "Profile Picture"
+  },
+  "validation": {
+    "required": "This field is required",
+    "passwordMismatch": "Passwords do not match"
+  },
+  "errors": {
+    "saveFailed": "Save failed. Please try again.",
+    "deleteFailed": "Delete failed. Please try again."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalSales": "Total Sales",
+    "totalOrders": "Total Orders",
+    "totalUsers": "Total Users",
+    "myDownloads": "Bookshelf",
+    "download": "Download",
+    "read": "Read"
+  },
+  "store": {
+    "title": "Store",
+    "search": "Search",
+    "addToCart": "Add to cart",
+    "price": "Price",
+    "noProducts": "No products found"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty.",
+    "viewCart": "View Cart",
+    "buyNow": "Buy Now",
+    "total": "Total"
+  },
+  "orders": {
+    "purchaseSuccess": "Purchase successful! Downloads are in Dashboard.",
+    "purchaseFailed": "Purchase failed. Please try again."
+  },
+  "profile": {
+    "personalInfo": "Personal Information",
+    "edit": "Edit",
+    "save": "Save Changes",
+    "updateSuccess": "Profile updated successfully!",
+    "changePassword": "Change Password",
+    "passwordChanged": "Password changed successfully!",
+    "username": "Username",
+    "email": "Email",
+    "displayName": "Display Name"
+  },
+  "admin": {
+    "products": "Products",
+    "createProduct": "Create Product",
+    "editProduct": "Edit Product",
+    "deleteProduct": "Delete Product",
+    "productCreated": "Product created successfully",
+    "productUpdated": "Product updated",
+    "productDeleted": "Product deleted"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

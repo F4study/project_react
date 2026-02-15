@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "dashboard": "แดชบอร์ด",
+    "store": "ร้านค้า",
+    "profile": "โปรไฟล์",
+    "admin": "ผู้ดูแล"
+  },
+  "header": {
+    "viewProfile": "ดูโปรไฟล์",
+    "logout": "ออกจากระบบ"
+  },
+  "auth": {
+    "login": "เข้าสู่ระบบ",
+    "register": "สมัครสมาชิก",
+    "logout": "ออกจากระบบ",
+    "notLoggedIn": "กรุณาเข้าสู่ระบบเพื่อดูหน้านี้"
+  },
+  "login": {
+    "email": "อีเมล",
+    "emailPlaceholder": "กรอกอีเมลของคุณ",
+    "password": "รหัสผ่าน",
+    "passwordPlaceholder": "กรอกรหัสผ่าน"
+  },
+  "register": {
+    "username": "ชื่อผู้ใช้",
+    "email": "อีเมล",
+    "password": "รหัสผ่าน",
+    "confirmPassword": "ยืนยันรหัสผ่าน",
+    "avatar": "รูปโปรไฟล์"
+  },
+  "validation": {
+    "required": "จำเป็นต้องกรอกข้อมูล",
+    "passwordMismatch": "รหัสผ่านไม่ตรงกัน"
+  },
+  "errors": {
+    "saveFailed": "บันทึกล้มเหลว กรุณาลองอีกครั้ง",
+    "deleteFailed": "ลบล้มเหลว กรุณาลองอีกครั้ง"
+  },
+  "dashboard": {
+    "title": "แดชบอร์ด",
+    "totalSales": "ยอดขายรวม",
+    "totalOrders": "คำสั่งซื้อทั้งหมด",
+    "totalUsers": "ผู้ใช้ทั้งหมด",
+    "myDownloads": "ชั้นหนังสือ",
+    "download": "ดาวน์โหลด",
+    "read": "อ่าน"
+  },
+  "store": {
+    "title": "ร้านค้า",
+    "search": "ค้นหา",
+    "addToCart": "เพิ่มในตะกร้า",
+    "price": "ราคา",
+    "noProducts": "ไม่พบสินค้า"
+  },
+  "cart": {
+    "title": "ตะกร้า",
+    "empty": "ตะกร้าว่างอยู่",
+    "viewCart": "ดูตะกร้า",
+    "buyNow": "ซื้อเลย",
+    "total": "รวม"
+  },
+  "orders": {
+    "purchaseSuccess": "ซื้อสำเร็จ ดาวน์โหลดอยู่ที่แดชบอร์ด",
+    "purchaseFailed": "การซื้อไม่สำเร็จ กรุณาลองอีกครั้ง"
+  },
+  "profile": {
+    "personalInfo": "ข้อมูลส่วนตัว",
+    "edit": "แก้ไข",
+    "save": "บันทึก",
+    "updateSuccess": "อัปเดตโปรไฟล์สำเร็จ",
+    "changePassword": "เปลี่ยนรหัสผ่าน",
+    "passwordChanged": "เปลี่ยนรหัสผ่านสำเร็จ",
+    "username": "ชื่อผู้ใช้",
+    "email": "อีเมล",
+    "displayName": "ชื่อแสดง"
+  },
+  "admin": {
+    "products": "สินค้า",
+    "createProduct": "สร้างสินค้า",
+    "editProduct": "แก้ไขสินค้า",
+    "deleteProduct": "ลบสินค้า",
+    "productCreated": "สร้างสินค้าสำเร็จ",
+    "productUpdated": "อัปเดตสินค้าแล้ว",
+    "productDeleted": "ลบสินค้าสำเร็จ"
+  },
+  "footer": {
+    "rights": "สงวนลิขสิทธิ์"
+  }
+}
